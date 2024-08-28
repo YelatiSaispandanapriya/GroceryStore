@@ -178,9 +178,9 @@ int main() {
     } while (yn == 'y');
 //--------------------------------BILL RECEIPT PART---------------------------/
     printf("|---------------------------------------------------------------|\n");
-    printf("|               *WELCOME TO OUR FRESH MART*                 |\n");
+    printf("|                   *WELCOME TO OUR FRESH MART*                 |\n");
     printf("|---------------------------------------------------------------|\n");
-    printf("|               Product     Quantity    Price                   | \n");
+    printf("|               Product             Quantity           Price    | \n");
     printf("|---------------------------------------------------------------|\n");
     display(head);
     printf("|---------------------------------------------------------------|\n");
@@ -189,7 +189,7 @@ int main() {
     printf("|                                     Disount         : %d      \n", bill - bill1);
     printf("|                                     Payable amount  : %d      \n", bill1);
     printf("|---------------------------------------------------------------|\n");
-    printf("|   ***THANKS FOR VISITING OUR SHOP**   |\n");
+    printf("|                ***THANKS FOR VISITING OUR SHOP**              |\n");
     printf("|---------------------------------------------------------------|\n");
 
     // Free allocated memory
